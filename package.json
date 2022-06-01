@@ -1,0 +1,39 @@
+{
+  "name": "WebAdv-2022-A",
+  "version": "",
+  "description": "1ITF - Webdesign Advanced - Exam",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pverhaert/WebAdv-2022-A.git"
+  },
+  "keywords": [
+    "Thomas More Kempen",
+    "1ITF",
+    "Webdesign Advanced",
+    "Exam"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/pverhaert/WebAdv-2022-A#readme",
+  "scripts": {
+    "watch": "gulp",
+    "zip": "gulp zip"
+  },
+  "devDependencies": {
+    "bootstrap": "^5.1.3",
+    "browser-sync": "^2.27.9",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-css-mqpacker": "^1.0.1",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-zip": "^5.1.0"
+  }
+}

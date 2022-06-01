@@ -1,0 +1,8 @@
+.DS_Store
+.idea
+*.zip
+node_modules
+src/js/bootstrap.bundle.min.js
+src/js/jquery.min.js
+src/css
+dist
