@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Question 3: Flags of the World</title>
+        <style>
+            .hide {
+                display: none;
+            }
+
+            select {
+                width: 100%;
+                padding: .5rem;
+            }
+
+            #size {
+                margin: 1rem 0;
+            }
+        </style>
+    </head>
+    <body class="question3">
+        <main class="container">
+            <h1>Flags of the World</h1>
+            <select id="country">
+                <option value="">Select a country</option>
+                <option value="be">Belgium</option>
+                <option value="de">Germany</option>
+                <option value="fr">France</option>
+                <option value="nl">Netherlands</option>
+                <option value="lu">Luxembourg</option>
+            </select>
+            <select id="size">
+                <option value="">Select a size</option>
+                <option value="w80">80px</option>
+                <option value="w160">160px</option>
+                <option value="w320">320px</option>
+                <option value="w640">640px</option>
+            </select>
+            <div id="flagText" class="alert alert-warning">
+                Please select a <b>country</b> and a <b>size</b>!
+            </div>
+            <hr />
+            <h3>You chose this flag</h3>
+            <figure class="hide"></figure>
+        </main>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

@@ -17,4 +17,3 @@
 ## IMPORTANT
 - Do not wait until the last few minutes to create the ZIP file because there is a chance that you will 
 not be able to upload your exam on time!
-- No upload is **0/20** for your exam!
